@@ -1,7 +1,7 @@
 # 字体压缩神器
 用于提取仅需要的美化文字，来压缩assets下的字体文件大小。
 
-[***sfnttool.jar下载***](FontTool/sfnttool.jar)
+[***sfnttool.jar下载***](https://github.com/forJrking/FontZip/raw/master/FontTool/sfnttool.jar)
 
 ### 使用说明：
  * 先提取需要特殊字体美化的文字，
