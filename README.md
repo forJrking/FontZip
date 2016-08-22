@@ -1,7 +1,7 @@
 # 字体压缩神器
 用于提取仅需要的美化文字，来压缩assets下的字体文件大小。
 
-[***GUI.rar下载***](https://github.com/forJrking/FontZip/raw/master/FontTool/GUI.rar)
+[***GUI.rar下载***](https://github.com/forJrking/FontZip/raw/master/GUI.rar)
 
 [***百度云下载***](http://pan.baidu.com/s/1nuEDOSh)
 ## GIF
