@@ -22,9 +22,7 @@ import util.FontGenerateManager;
 
 public class ToolGUI extends JFrame implements MouseListener {
 
-    /**
-         * 
-         */
+
     private static final long serialVersionUID = 1L;
 
     public static void main(String[] args) {
@@ -52,17 +50,17 @@ public class ToolGUI extends JFrame implements MouseListener {
         frame = new JFrame("字体压缩神器 By forjrking");
         frame.setResizable(false);
         // 文字区域
-        viewArea = new JTextArea(15, 35);// 可提取的字数
+        viewArea = new JTextArea(12, 35);// 可提取的字数
 
         viewArea.setText("需要提取的文字");
 
-        viewArea.setFont(new Font("微软雅黑", Font.BOLD, 14));
+        viewArea.setFont(new Font("微软雅黑", Font.BOLD, 15));
 
         fontName = new JTextField();
         button = new JButton("OK");
         viewField = new JLabel("选择源字体");
-        result = new JLabel("提醒请勿使用fontmix做字体文件名");
-        result.setFont(new Font("微软雅黑", Font.BOLD | Font.ITALIC, 16));
+        result = new JLabel("提醒:请勿使用fontmix做字体文件名");
+        result.setFont(new Font("微软雅黑", Font.BOLD , 16));
         fontName.setColumns(25);
 
         JPanel panel = new JPanel();
@@ -80,7 +78,7 @@ public class ToolGUI extends JFrame implements MouseListener {
         frame.add("South", result);
         panel.add(sp);
         frame.add("Center", panel);
-        frame.setSize(580, 430);
+        frame.setSize(565, 365);
         center(frame);
         frame.setVisible(true);
 
@@ -104,7 +102,7 @@ public class ToolGUI extends JFrame implements MouseListener {
                 // System.out.println("源文件" + sourceFontFile + "  生成文件名" +
                 // generateFontFile);
                 FontGenerateManager.generateFontByContent(viewArea.getText(), sourceFontFile, generateFontFile);
-                result.setText("结果：提取成功，请在字体统计目录查看");
+                result.setText("结果：提取成功，请在字体同级目录查看");
             } else {
                 result.setText("结果：请选择源字体并且添加提取的字");
             }
