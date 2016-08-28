@@ -4,8 +4,8 @@
 ![](https://img.shields.io/badge/support-OpenType-red.svg)
 ![](https://img.shields.io/badge/support-TrueType-red.svg)
 ### Download
-- [***GUI.rar***](https://github.com/forJrking/FontZip/raw/master/GUI.rar)
-- [***百度云下载***](http://pan.baidu.com/s/1nuEDOSh)
+- [***GUITool***](https://github.com/forJrking/FontZip/raw/master/FontZip.rar)
+- [***百度云下载***](http://pan.baidu.com/s/1sl09h97)
 
 ## GIF
 
