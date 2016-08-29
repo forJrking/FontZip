@@ -1,20 +1,23 @@
 # 字体压缩神器
 >用于提取仅需要的美化文字，来压缩assets下的字体文件大小。
 
-![](https://img.shields.io/badge/support-OpenType-green.svg)
+![](https://img.shields.io/badge/support-OpenType-blue.svg)
 ![](https://img.shields.io/badge/support-TrueType-green.svg)
 ### Download
-- [**FontZip.jar**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip1.0.rar)
-- [**百度云下载**](http://pan.baidu.com/s/1sl09h97)
-- [**FontZip.exe**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip1.0.exe)
-## GIF
+- [**FontZip.jar**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip2.0.rar)
+- [**FontZip32.exe**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip1.0.exe)
+- [**FontZip64.exe 开发中**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip1.0_64.exe)
+- [历史版本和其他下载链](https://github.com/forJrking/FontZip/wiki/%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC)
 
-![GUI](/img/gif.gif)
+## Gif
 
-### GUITool使用说明:
-运行```run.bat```，选字体文件填入提取文字，点击OK，在字体同级目录下会生成 ```fontmin``` 文件，关闭GUI、命令窗口，稍等待5-10s后即可。
+![GUI](/img/gif2.gif)
 
-经过测试，已经把项目***5MB***的艺术字体，按需求提取后，占用只有***20KB***，并且可正常使用。大大压缩了apk包的大小，还可以减小资源加载的占用。有此需要的同学赶紧用起来吧。支持otf、ttf、ttc，均测试提取成功。
+### FontZip2 使用说明:
+运行```run.bat```，选字体文件填入提取文字，2.0加入选择输出文件类型，点击OK，在字体同级目录下会生成```fontmin```文件，
+关闭GUI/命令窗口，稍等待2-5s后即可。
+
+经过测试，已经把项目***5MB***的艺术字体，按需求提取后，占用只有***20KB***，并且可正常使用。大大压缩了apk包的大小，还可以减小资源加载的占用。有此需要的同学赶紧用起来吧。支持otf、ttf、ttc、woff、eof 均测试提取成功。
 
 ## ~~sfntly~~（请使用FontZip）
 [***~~sfnttool.jar~~下载***](https://github.com/forJrking/FontZip/raw/master/FontZip/sfnttool.jar)
