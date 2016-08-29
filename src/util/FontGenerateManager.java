@@ -1,7 +1,5 @@
 package util;
 
-import java.io.IOException;
-
 import com.google.typography.font.tools.sfnttool.SfntTool;
 
 /**
@@ -21,16 +19,11 @@ public class FontGenerateManager {
      * @param sourceFontFile
      * @param generateFontFile
      * @return
+     * @throws Exception 
      */
-    public static void generateFontByContent(String content, String sourceFontFile, String generateFontFile) {
+    public static void generateFontByContent(String content, String sourceFontFile, String generateFontFile) throws Exception {
 
         String[] args = new String[] { "-s", content, sourceFontFile, generateFontFile };
-
-        try {
-            SfntTool.main(args);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        SfntTool.main(args);
     }
 }
