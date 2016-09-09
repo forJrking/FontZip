@@ -5,8 +5,8 @@
 ![](https://img.shields.io/badge/support-TrueType-green.svg)
 ### Download
 - [**FontZip.jar**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip2.0.rar)
-- [**FontZip32.exe**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip1.0.exe)
-- [**FontZip64.exe 开发中**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip1.0_64.exe)
+- [**FontZip32.exe**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip32.exe)
+- [**FontZip64.exe**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip64.exe)
 - [历史版本和其他下载链](https://github.com/forJrking/FontZip/wiki/%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC)
 
 ## Gif
