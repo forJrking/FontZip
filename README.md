@@ -14,8 +14,10 @@
 ![GUI](/img/gif2.gif)
 
 ### FontZip2 使用说明:
-运行```run.bat```，选字体文件填入提取文字，2.0加入选择输出文件类型，点击OK，在字体同级目录下会生成```fontmin```文件，
+Windows下运行```run.bat```，选字体文件填入提取文字，2.0加入选择输出文件类型，点击OK，在字体同级目录下会生成```fontmin```文件，
 关闭GUI/命令窗口，稍等待2-5s后即可。
+
+mac linux 等请选择[**FontZip.jar**](https://github.com/forJrking/FontZip/raw/master/FontZip/FontZip2.0.rar)
 
 经过测试，已经把项目***5MB***的艺术字体，按需求提取后，占用只有***20KB***，并且可正常使用。大大压缩了apk包的大小，还可以减小资源加载的占用。有此需要的同学赶紧用起来吧。支持otf、ttf、ttc、woff、eof 均测试提取成功。
 
