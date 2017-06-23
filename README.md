@@ -1,5 +1,5 @@
-# 字体压缩神器
->用于提取仅需要的美化文字，来压缩assets下的字体文件大小。
+# 字体提取工具
+>可用作APK字体压缩 用于提取仅需要的美化文字，来压缩assets下的字体文件大小。
 
 ![](https://img.shields.io/badge/support-OpenType-blue.svg)
 ![](https://img.shields.io/badge/support-TrueType-green.svg)
